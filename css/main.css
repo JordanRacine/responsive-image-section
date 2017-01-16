@@ -28,6 +28,7 @@ section {
 
 div {
   display: inline-block;
+  text-align: left;
 }
 
 .img-flex {
@@ -106,7 +107,7 @@ a:hover {
   }
 
   section {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
   }
 
