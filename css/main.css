@@ -29,6 +29,7 @@ section {
 div {
   display: inline-block;
   text-align: left;
+  padding: 1rem;
 }
 
 .img-flex {
