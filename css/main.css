@@ -23,97 +23,33 @@ body {
   margin: 0;
 }
 
-.choco {
-  padding: 1em 2em;
+section {
+  background-color: #e2e2e2;
+}
+
+div {
+  display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  padding-top: 1rem;
 }
 
 p {
-  vertical-align: middle;
-  text-align: left;
-  padding: 1em;
-}
-
-.img {
-  display: block;
-  width: 100%;
+  margin: 0;
+  padding-bottom: 2em;
 }
 
 a {
+  padding: .5em .75em;
+  color: #e2e2e2;
   background-color: #555;
   border-radius: 4px;
-  color: #fff;
-  padding: .5em .75em;
   text-decoration: none;
 }
 
-.btn a:hover {
+a:hover {
   background-color: #000;
-}
-
-@media only screen and (min-width: 25em) {
-
-  html {
-    font-size: 100%;
-    line-height: 1.3;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  h1 {
-    padding-top: .5em;
-  }
-
-  p {
-    padding-top: 0;
-  }
-
-  .choco {
-    display: inline-block;
-    vertical-align: middle;
-    width: 48%;
-  }
-
-  .img {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    width: 50%;
-  }
-
-  .img-flex {
-    width: 100%;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-  section {
-    padding: 2em 0;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-  }
-
-  section {
-    margin-left: 12em;
-  }
-
 }
